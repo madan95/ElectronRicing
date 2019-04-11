@@ -1,0 +1,9 @@
+body {
+  background: black;
+  color: white;
+  letter-spacing: 1.5px;
+}
+
+div {
+  display: inline-block;
+}

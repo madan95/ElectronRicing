@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Memory Alter</title>
+    <link rel="stylesheet" href="app/style.css">
+  </head>
+  <body>
+    <div id='root'>
+    <h1>Hello <span class='username'></span></h1>
+    OS: <script>document.write(process.platform)</script><br>
+    Node Version: <script>document.write(process.versions.node)</script><br>
+    Chrome Version: <script>document.write(process.versions.chrome)</script><br>
+    Electron Version: <script>document.write(process.versions.electron)</script><br>
+    Free Memory: <div class="memory"></div> <br>
+  </div>
+  <button class='close' >close</button>
+  </body>
+  <script src="app/app.js"></script>
+</html>
