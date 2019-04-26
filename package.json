@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron .",
-    "rebuild": "electron-rebuild -f -w ",
+    "rebuild": "electron-rebuild -f -w diskusage",
     "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=app/icon/icon.png --prune=true --out=release-builds",
     "package-win": "electron-packager . electron-mp3 --overwrite --asar=true --platform=win32 --arch=ia32 --icon=app/icon/icon.png --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Electron Madan MP3\"",
     "package-linux": "electron-packager . electron-mp3 --overwrite --asar=true --platform=linux --arch=x64 --icon=app/icon/icon.png --prune=true --out=release-builds"

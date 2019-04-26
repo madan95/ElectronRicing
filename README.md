@@ -8,7 +8,7 @@ Once you have the clone of the repo, start working on app/
 
 ### Prerequisites
 
-- npm
+- node:10.15.3
 
 ### Installing
 
